@@ -1,4 +1,4 @@
-package com.example.demo.Queries;
+package com.example.demo.query;
 
 public class LoginQuery {
     private String usernameQuery;

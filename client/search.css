@@ -1,0 +1,64 @@
+#memberTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#memberTable th,
+#memberTable td {
+  padding: 10px;
+  text-align: left;
+}
+
+#memberTable thead th {
+  font-weight: bold;
+  background-color: #f8f9fa;
+}
+
+#memberTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#search-form {
+  margin-bottom: 20px;
+}
+
+#search-form label {
+  margin-right: 10px;
+}
+
+#search-form input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#search-form button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #1a759f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#search-form button:hover {
+  background-color: #1e6091;
+}
+
+#search-form button:active {
+  background-color: #184e77;
+}
+
+#memberTable th:first-child,
+#memberTable td:first-child {
+  padding-left: 20px;
+}
+
+#memberTable th:last-child,
+#memberTable td:last-child {
+  padding-right: 20px;
+}
+
+th {
+font-weight: bolder;
+}
